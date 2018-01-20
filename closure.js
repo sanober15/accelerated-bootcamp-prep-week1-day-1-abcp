@@ -1,11 +1,11 @@
 function parent() {
   var innerVariable = "Go to your room!";
 
-  return function childe() {
+  return function child() {
     var inaccessible = "**sneaks out the bedroom window**";
     return innerVariable;
   }
-  console.log(childe());
+//  console.log(childe());
 }
 
 var outerScope = parent;
